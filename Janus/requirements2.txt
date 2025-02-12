@@ -1,0 +1,10 @@
+colorama
+langchain_community
+langchain
+langchain_chroma
+langchain_huggingface
+langchain_core
+langchain_openai
+pypdf
+pynvml
+pymupdf

@@ -1,0 +1,7 @@
+# 因为用的是国外源，所以可以先在命令行走clash代理
+set http_proxy=http://127.0.0.1:7890
+set https_proxy=http://127.0.0.1:7890
+# 安装pytorch2.2.2
+pip install torch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 --index-url https://download.pytorch.org/whl/cu121
+# 安装cuda12.1
+conda install nvidia/label/cuda-12.1.0::cuda --channel nvidia/label/cuda-12.1.0
